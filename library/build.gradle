@@ -33,13 +33,13 @@ buildscript {
         mavenLocal()
     }
     dependencies {
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
     }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:24.1.0'
+    compile 'com.android.support:appcompat-v7:24.2.0'
 }
 
 // build a jar with source files
